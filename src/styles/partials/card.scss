@@ -1,0 +1,225 @@
+li {
+    list-style: none;
+}
+
+.cards-section {
+    margin: 0 130px;
+}
+
+.card {
+    margin: 0 10.5px;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.second-title {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 120%;
+    color: #000000;
+    margin-top: 60px;
+    margin-bottom: 38px;
+}
+
+.desc-atr {
+    width: 231px;
+    height: 96px;
+    overflow: auto;
+    margin-left: 24px;
+    margin-bottom: 24px;
+}
+
+.name-atr {
+    overflow: auto;
+    width: 231px;
+    height: 60px;
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 24px;
+    margin-left: 24px;
+    line-height: 28px;
+    margin-top: 24px;
+    margin-bottom: 8px;
+    color: #333333;
+}
+
+.img-atr {
+    width: 279px;
+    height: 212px;
+    border-radius: 8px;
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1249px) {
+    .cards-section {
+        width: 850px;
+    }
+
+    .img-atr{
+        width: 193px;
+    }
+
+    .desc-atr{
+        width: 165px;
+    }
+
+    .name-atr{
+        width: 165px;
+    }
+}
+
+@media screen and (min-width: 1441px) and (max-width: 2499px) {
+    .cards-section {
+        width: 1180px;
+    }
+}
+
+@media screen and (min-width: 1250px) and (max-width: 1439px) {
+    .cards-section {
+        width: 1105px;
+    }
+
+    .img-atr {
+        width: 260px;
+    }
+}
+
+@media screen and (min-width: 2500px) {
+    .second-title {
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 120%;
+    }
+
+    .desc-atr {
+        overflow: auto;
+        width: 496px;
+        height: 192px;
+        font-size: 32px;
+        line-height: 48px;
+    }
+
+    .name-atr {
+        overflow: auto;
+        width: 496px;
+        height: 120px;
+        font-size: 48px;
+        margin-left: 24px;
+        line-height: 56px;
+        margin-top: 24px;
+        margin-bottom: 8px;
+        color: #333333;
+    }
+
+    .img-atr {
+        width: 544px;
+        height: 400px;
+        border-radius: 8px;
+    }
+
+    .cards-section {
+        margin: 0 130px;
+        width: 2255px;
+    }
+
+    .card {
+        margin: 0 10.5px;
+        box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.08);
+    }
+}
+
+@media only screen and (min-width: 491px) and (max-width: 1025px) {
+    .desc-atr {
+        margin: 0 24px 24px 24px;
+        overflow: auto;
+        width: 95.16%;
+        height: 24px;
+    }
+
+    .second-title {
+        margin-left: 16px;
+    }
+
+    .name-atr {
+        overflow: auto;
+        width: 240px;
+        height: 60px;
+        margin-left: 24px;
+        margin-top: 24px;
+        margin-bottom: 8px;
+        color: #333333;
+    }
+
+    .img-atr {
+        width: 100%;
+        height: 570px;
+        margin: 0;
+    }
+
+    figure {
+        margin: 0;
+    }
+
+    .card {
+        border-radius: 8px;
+        max-width: 96.88%;
+        height: 710px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 24px;
+    }
+
+    .cards-section {
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (min-width: 280px) and (max-width: 490px) {
+    .second-title {
+        margin: 40px 0 32px 16px;
+        width: 75.47%;
+    }
+    .cards-section {
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .card {
+        border-radius: 8px;
+        max-width: 91.47%;
+        height: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 24px;
+    }
+
+    .img-atr {
+        width: 100%;
+        height: 212px;
+        margin: 0;
+    }
+
+    figure {
+        margin: 0;
+    }
+
+    .name-atr {
+        overflow: auto;
+        width: 69.97%;
+        height: 60px;
+        margin-left: 24px;
+        margin-top: 24px;
+        margin-bottom: 8px;
+        color: #333333;
+    }
+
+    .desc-atr {
+        margin: 0 24px 24px 24px;
+        overflow: auto;
+        width: 86.01%;
+        height: 72px;
+    }
+}

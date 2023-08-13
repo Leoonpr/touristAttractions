@@ -1,0 +1,249 @@
+.title {
+    color: #000000;
+    font-family: "Poppins", sans-serif;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 130px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 120%;
+}
+
+.picture-input {
+    display: none;
+}
+
+.picture {
+    position: relative;
+    width: 343px;
+    height: 212px;
+    border: 2px solid #e5e5e5;
+    display: flex;
+    border-radius: 8px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    margin-left: 130px;
+}
+
+.picture-img {
+    width: 343px;
+    height: 212px;
+    max-width: 100%;
+    display: block;
+}
+
+.title-input {
+    display: flex;
+    align-self: flex-end;
+    width: 328px;
+    height: 56px;
+    border: 2px solid #d6d6d6;
+    border-radius: 8px;
+    margin-left: 493px;
+    margin-top: -212px;
+    padding: 16px;
+}
+
+.description-input {
+    border: 2px solid #d6d6d6;
+    border-radius: 8px;
+    width: 417px;
+    height: 136px;
+    margin-left: 493px;
+    margin-top: 20px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+.description-input,
+.title-input {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    color: #858585;
+}
+
+.submit-form {
+    background: #ff5a5f;
+    border: 1px solid #ff5a5f;
+    border-radius: 8px;
+    width: 121px;
+    height: 56px;
+    cursor: pointer;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px 20px;
+    gap: 10px;
+    margin-left: 790px;
+    margin-top: 16px;
+
+    &:hover {
+        background: #e05559;
+    }
+}
+
+@media screen and (min-width: 2500px) {
+    .description-input,
+    .title-input {
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 48px;
+        letter-spacing: 0.15px;
+    }
+
+    .title {
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 120%;
+    }
+    input {
+        font-size: 32px;
+        line-height: 48px;
+        letter-spacing: 0.15px;
+    }
+
+    .picture {
+        width: 600px;
+        height: 400px;
+    }
+
+    span.picture-image {
+        font-size: 32px;
+        line-height: 48px;
+        color: #858585;
+    }
+
+    .picture-img {
+        width: 600px;
+        height: 400px;
+    }
+    .title-input {
+        width: 575px;
+        height: 64px;
+        margin: -400px 0 0 750px;
+    }
+
+    .description-input {
+        margin: 20px 0 0 750px;
+        width: 725px;
+        height: 320px;
+        padding-left: 16.75px;
+    }
+
+    .submit-form {
+        margin: 20px 0 0 1275px;
+        width: 200px;
+        height: 80px;
+        justify-self: flex-end;
+        align-self: flex-end;
+    }
+
+    button {
+        font-weight: 700;
+        font-size: 32px;
+    }
+}
+
+@media only screen and (min-width: 491px) and (max-width: 1024px) {
+    .title {
+        margin: 40px 0 40px 16px;
+    }
+
+    input {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .picture {
+        width: 96.88%;
+        height: 570px;
+        margin: 0 0 16px 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .picture-img {
+        width: 992px;
+        margin: 0;
+        height: 565px;
+        max-width: 100%;
+    }
+
+    .title-input {
+        overflow: auto;
+        width: 96.28%;
+        height: 54px;
+        margin: 0 0 16px 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .description-input {
+        width: 984.96px;
+        max-width: 96.28%;
+        height: 131.14px;
+        margin: 0 16px 10.73px 16px;
+    }
+
+    .submit-form {
+        width: 96.88%;
+        height: 56px;
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (min-width: 280px) and (max-width: 490px) {
+    .title {
+        margin: 40px 0 40px 16px;
+    }
+
+    .picture {
+        width: 91.47%;
+        height: 212px;
+        margin: 0 0 16px 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .picture-img {
+        width: 491px;
+        height: 212px;
+        margin: 0;
+        max-width: 100%;
+    }
+
+    .title-input {
+        width: 90.91%;
+        height: 54px;
+        margin: 0 0 16px 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .description-input {
+        width: 340.91px;
+        max-width: 90.91%;
+        height: 131.14px;
+        margin: 0 16px 10.73px 16px;
+    }
+
+    .submit-form {
+        width: 91.47%;
+        height: 56px;
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
